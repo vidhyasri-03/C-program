@@ -1,0 +1,21 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    float a ;
+    int b,c,d;
+    scanf("%f",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
+    scanf("%d",&d);
+    printf("%d\n",(int)floor(a));
+    printf("%d\n",(int)ceil(a));
+    printf("%d\n",(int)sqrt(b));
+    printf("%d",(int)pow(c,d));
+    return 0;
+}
