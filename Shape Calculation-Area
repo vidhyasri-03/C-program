@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+#define pi 3.14159265359
+int main() {
+    int s,l,b,r,a,h;
+    scanf("%d",&s);
+    scanf("%d",&l);
+    scanf("%d",&b);
+    scanf("%d",&r);
+    scanf("%d",&a);
+    scanf("%d",&h);
+    printf("Area of Square=%d",s*s);
+    printf("\nArea of Rectangle=%d",l*b);
+    printf("\nArea of Circle=%.2f",pi*r*r);
+    printf("\nArea of Triangle=%d",(a*h)/2);
+    
+
+    
+    return 0;
+}
