@@ -1,0 +1,19 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int w,x,y,profit;
+    scanf("%d",&w);
+    scanf("%d",&x);
+    scanf("%d",&y);
+    printf("%d",(w*(x-y))-100);
+    
+    
+
+    return 0;
+}
