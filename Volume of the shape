@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+#define pi 3.14159265359
+
+int main() {
+
+    int l,b,h,r;
+    scanf("%d",&l);
+    scanf("%d",&b);
+    scanf("%d",&h);
+    scanf("%d",&r);
+    printf("Volume of Cubiod=%.2f",(float)l*b*h);
+    printf("\nVolume of Cylinder=%.2f",floor(pi*r*r*h*100)/100);
+    printf("\nVolume of Cone=%.2f",floor(((pi*r*r*h)/3)*100)/100);
+    printf("\nVolume of Shpere=%.2f",floor(((4*pi*r*r*r)/3)*100)/100);
+    
+    return 0;
+    
+}
