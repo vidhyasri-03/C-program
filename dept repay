@@ -1,0 +1,22 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int a,b,c;
+    float e,f,g,h;
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
+    e=(a*b*c)/100;
+    f=a+e;
+    g=(2*e)/100;
+    h=f-g;
+    printf("%.2f\n%.2f\n%.2f\n%.2f",e,f,g,h);
+    
+    return 0;
+}
