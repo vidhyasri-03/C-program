@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int a,sum=0; 
+    scanf("%d",&a);
+    int b[a];
+    for(int i=0;i<a;i++){
+        scanf("%d",&b[i]);
+     }
+    for(int i=0;i<a;i++){
+        sum=sum+b[i];
+    }
+    float mean=(float)sum/a;
+    float c=floor(mean*100)/100; 
+    printf("Array Mean Value is %.2f",c);
+    
+    return 0;
+}
