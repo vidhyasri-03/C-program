@@ -1,0 +1,39 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int i,n;
+    scanf("%d",&n);
+    int arr[n];
+    int ec=0,oc=0;
+    for(i=0;i<n;i++){
+    scanf("%d",&arr[i]);
+    }
+    for(i=0;i<n;i++){
+        if(arr[i]%2==0)
+        {
+          ec++;
+        }
+        else if (arr[i]%2!=0){
+            oc++;
+            
+        }
+        
+        }
+    if(ec==n){
+        printf("Even");
+    }
+    else if (oc==n){
+        printf("Odd");
+    }
+    else{
+        printf("Mixed");
+    }
+                
+    return 0;
+}
