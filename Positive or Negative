@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int n;
+    scanf("%d",&n);
+    if(n<0)
+        {
+        printf("The Given Number %d is Negative.",n);
+        }
+    else if (n>0)
+        {
+        printf("The Given Number %d is Positive.",n);
+        }
+    else
+        {
+        printf("The Given Number %d is Zero.",n);
+        }
+    return 0;
+}
