@@ -1,0 +1,22 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int a,b,c,d,e,f;
+    scanf("%d\n%d\n%d\n%d\n%d\n%d",&a,&b,&c,&d,&e,&f);
+    int x=a*b;
+    int y=(c*d)+(e*f);
+    {
+        if(x>=y)
+        {
+            printf("Raj can fix both painting");
+        }
+else
+        printf("Raj cannot fix both painting");}
+    return 0;
+}
